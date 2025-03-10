@@ -26,9 +26,16 @@
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="header-logo logo"
             >Web<span class="logo-dark">Studio</span></a
           >
+
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#burger-menu"></use>
+            </svg>
+          </button>
+
           <ul class="header-nav-list">
             <li class="header-nav-item">
               <a class="header-nav-link studio" href="./index.html">Studio</a>
@@ -125,10 +132,15 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/team/img.jpg"
+                srcset="
+                  ./images/team/img-1@1x.jpg 1x,
+                  ./images/team/img-1@2x.jpg 2x
+                "
+                src="./images/team/img-1@1x.jpg"
                 width="264"
                 height="260"
                 alt="Mark Guerrero Product Designer"
+                loading="lazy"
               />
               <div class="team-card">
                 <h3 class="team-name">Mark Guerrero</h3>
@@ -167,10 +179,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-2.jpg"
+                srcset="
+                  ./images/team/img-2@1x.jpg 1x,
+                  ./images/team/img-2@2x.jpg 2x
+                "
+                src="./images/team/img-2@1x.jpg"
                 width="264"
                 height="260"
                 alt="Tom Ford Frontend Developer"
+                loading="lazy"
               />
               <div class="team-card">
                 <h3 class="team-name">Tom Ford</h3>
@@ -209,10 +226,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-3.jpg"
+                srcset="
+                  ./images/team/img-3@1x.jpg 1x,
+                  ./images/team/img-3@2x.jpg 2x
+                "
+                src="./images/team/img-3@1x.jpg"
                 width="264"
                 height="260"
                 alt="Camila Garcia Marketing"
+                loading="lazy"
               />
               <div class="team-card">
                 <h3 class="team-name">Camila Garcia</h3>
@@ -251,10 +273,15 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-4.jpg"
+                srcset="
+                  ./images/team/img-4@1x.jpg 1x,
+                  ./images/team/img-4@2x.jpg 2x
+                "
+                src="./images/team/img-4@1x.jpg"
                 width="264"
                 height="260"
                 alt="Daniel Wilson UI Designer"
+                loading="lazy"
               />
               <div class="team-card">
                 <h3 class="team-name">Daniel Wilson</h3>
@@ -301,10 +328,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img.jpg"
+                  srcset="
+                    ./images/row/img-1@1x.jpg 1x,
+                    ./images/row/img-1@2x.jpg 2x
+                  "
+                  src="./images/row/img-1@1x.jpg"
                   width="360"
                   height="300"
                   alt="Banking App"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -320,10 +352,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img-2.jpg"
+                  srcset="
+                    ./images/row/img-2@1x.jpg 1x,
+                    ./images/row/img-2@2x.jpg 2x
+                  "
+                  src="./images/row/img-2@1x.jpg"
                   width="360"
                   height="300"
                   alt="Cashless Payment"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -339,10 +376,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img-3.jpg"
+                  srcset="
+                    ./images/row/img-3@1x.jpg 1x,
+                    ./images/row/img-3@2x.jpg 2x
+                  "
+                  src="./images/row/img-3@1x.jpg"
                   width="360"
                   height="300"
                   alt="Meditation App"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -358,10 +400,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img-4.jpg"
+                  srcset="
+                    ./images/row/img-4@1x.jpg 1x,
+                    ./images/row/img-4@2x.jpg 2x
+                  "
+                  src="./images/row/img-4@1x.jpg"
                   width="360"
                   height="300"
                   alt="Taxi Service"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -377,10 +424,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img-5.jpg"
+                  srcset="
+                    ./images/row/img-5@1x.jpg 1x,
+                    ./images/row/img-5@2x.jpg 2x
+                  "
+                  src="./images/row/img-5@1x.jpg"
                   width="360"
                   height="300"
                   alt="Screen Illustrations"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -396,10 +448,15 @@
             <li class="portfolio-item">
               <div class="portfolio-picture">
                 <img
-                  src="./images/row/img-6.jpg"
+                  srcset="
+                    ./images/row/img-6@1x.jpg 1x,
+                    ./images/row/img-6@2x.jpg 2x
+                  "
+                  src="./images/row/img-6@1x.jpg"
                   width="360"
                   height="300"
                   alt="Online Courses"
+                  loading="lazy"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -575,6 +632,67 @@
           <button type="submit" class="submit-btn">Send</button>
         </form>
       </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-btn">
+        <svg class="mobile-menu-btn-icon" width="24" height="24">
+          <use href=".images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link active" href="#">Studio</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a class="mobile-menu-nav-link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-contacts">
+        <li class="mobile-menu-contacts-item">
+          <a class="mobile-menu-contacts-link active" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-menu-contacts-item">
+          <a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-socials">
+        <li class="footer-item">
+          <a href="#" class="footer-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
